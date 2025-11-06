@@ -1,12 +1,3 @@
-/*
-  View: PASV_TITULOS_EM_ABERTO_COMPRADOR
-  Autor: Carlos Ribeiro
-  Descrição: Versão original da view utilizada para análise de títulos em aberto.
-  Data de criação: 2024
-*/
-
-
-
 CREATE OR REPLACE VIEW PASV_TITULOS_EM_ABERTO_COMPRADOR AS
 SELECT "RN",
        "COMPRADOR",

@@ -1,14 +1,3 @@
-/*
-  Query: Instrução de relatório financeiro
-  Autor: Carlos Ribeiro
-  Descrição:
-    Essa instrução é a query executada pelo gerador de relatórios da aplicação.
-    Ela consome a view `PASV_TITULOS_EM_ABERTO_COMPRADOR`, aplicando parâmetros
-    dinâmicos (intervalo de datas, empresa, situação e comprador) e retornando
-    os dados formatados para exibição.
-*/
-
-
 SELECT 
     T0.*, 
     TO_CHAR(:DT1, 'DD/MM/YYYY') AS INICIO,
