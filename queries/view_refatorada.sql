@@ -1,3 +1,23 @@
+/*
+  View: PASV_TITULOS_EM_ABERTO_COMPRADOR_DEV
+  Autor: Carlos Ribeiro
+  Descrição: Versão refatorada da view anterior, estruturada com CTEs (WITH),
+              melhor legibilidade, performance e manutenção.
+  Principais melhorias:
+  - Separação lógica em CTEs nomeadas
+  - Eliminação de subqueries redundantes
+  - Padronização de aliases e campos
+  - Inclusão de comentários explicativos
+  - Clareza na identificação do comprador final e origem do título
+
+  Data de refatoração: 2025
+*/
+
+
+CREATE OR REPLACE VIEW PASV_TITULOS_EM_ABERTO_COMPRADOR_DEV AS
+WITH
+
+-- Filtro de dados simples necessario para o relatorio 
 DADOS_FILTRADOS AS (
     SELECT
         T0.SEQTITULO,

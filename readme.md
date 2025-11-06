@@ -18,5 +18,5 @@ O foco é apresentar a refatoração da query, tornando-a mais legível, modular
 
 👨‍💻 **Carlos Ribeiro**  
 📊 Data Analyst | SQL | Power BI | Data Science  
-🔗 [GitHub](https://github.com/carlosrx23)  
-🔗 [LinkedIn](www.linkedin.com/in/carlos-ribeiro-165345203)  
+🔗 [GitHub] https://github.com/carlosrx23
+🔗 [LinkedIn] www.linkedin.com/in/carlos-ribeiro-165345203 
