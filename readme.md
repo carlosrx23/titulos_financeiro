@@ -3,16 +3,13 @@
 Este repositório demonstra a evolução de uma view SQL complexa utilizada em um sistema financeiro corporativo.  
 O foco é apresentar a refatoração da query, tornando-a mais legível, modular e eficiente.
 
-## Estrutura
-
-- **queries/** → Contém as duas versões da view (`base` e `refatorada`)
-
 ## Tecnologias
 
 - Oracle SQL (compatível com PL/SQL)
 - Funções analíticas (`ROW_NUMBER`, `AVG`, `COALESCE`)
 - CTEs (Common Table Expressions)
 - QueryView (Tecnologia utilizada pela consinco para montar o relatorio)
+- Open Text Report Builder (Tecnologia para montar o arquivo de geração do relatorio)
 
 ## Autor
 
