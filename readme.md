@@ -3,6 +3,10 @@
 Este repositório demonstra a evolução de uma view SQL complexa utilizada em um sistema financeiro corporativo.  
 O foco é apresentar a refatoração da query, tornando-a mais legível, modular e eficiente.
 
+## Estrutura
+
+- **queries/** → Contém as duas versões da view (`base` e `refatorada`) e a instrução que o gerador envia para o banco
+
 ## Tecnologias
 
 - Banco de dados: **Oracle Database**
@@ -18,3 +22,4 @@ O foco é apresentar a refatoração da query, tornando-a mais legível, modular
 📊 Data Analyst | SQL | Power BI | Data Science  
 🔗 [GitHub] https://github.com/carlosrx23
 🔗 [LinkedIn] www.linkedin.com/in/carlos-ribeiro-165345203 
+
