@@ -5,7 +5,8 @@ O foco é apresentar a refatoração da query, tornando-a mais legível, modular
 
 ## Tecnologias
 
-- Oracle SQL (compatível com PL/SQL)
+- Banco de dados: **Oracle Database**
+- Linguagem: **PL/SQL (Procedural Language/SQL)**
 - Funções analíticas (`ROW_NUMBER`, `AVG`, `COALESCE`)
 - CTEs (Common Table Expressions)
 - QueryView (Tecnologia utilizada pela consinco para montar o relatorio)
